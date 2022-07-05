@@ -28,8 +28,10 @@ proc testme() =
 
 
   stupidsort(a)
-  # echo("Swap count",swap_count)
+  echo("Swap count",swap_count)
 
 
-testme()
+for i in 0 ..< 10:
+  testme()
+
 
